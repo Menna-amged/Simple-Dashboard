@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard | Taskly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation / Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#/dashboard" class="logo">Taskly</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#/dashboard" class="nav__link" data-route="dashboard">Dashboard</a>
+        <a href="#/projects" class="nav__link" data-route="projects">Projects</a>
+        <a href="#/tasks" class="nav__link" data-route="tasks">Tasks</a>
+        <a href="#/settings" class="nav__link" data-route="settings">Settings</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page content is rendered here by script.js -->
+  <main class="container" id="app">
+    <noscript>Please enable JavaScript to view the dashboard.</noscript>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
